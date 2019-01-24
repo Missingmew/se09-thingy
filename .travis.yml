@@ -1,4 +1,8 @@
+# tell travis that we are dealing with coffee
 language: java
 
+# explicitly tell travis to use java 8 (1.8?)
 jdk:
  - openjdk8
+
+# gradle gets detected automatically, so nothing needed there
